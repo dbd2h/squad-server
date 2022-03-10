@@ -1,0 +1,31 @@
+{
+  "name": "squad-server",
+  "version": "1.0.0",
+  "description": "sharing the squad server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbd2h/squad-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbd2h/squad-server/issues"
+  },
+  "homepage": "https://github.com/dbd2h/squad-server#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.2.3",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
